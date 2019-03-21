@@ -1,5 +1,9 @@
 ## 计算机图形学 | hw2
 
+关于OpenGL入门以及GLFW，GLAD构建工程可以参考本人的另外一篇[博客](https://blog.cookieschen.cn/2019/03/06/opengl%E5%85%A5%E9%97%A8/)。
+
+[github](https://github.com/CookiesChen/CG)
+
 **一、使用OpenGL(3.3及以上)+GLFW或freeglut画一个简单的三角形。**
 
 基本步骤有：
