@@ -1,4 +1,4 @@
-#计算机图形学 | hw3
+# 计算机图形学 | hw3
 
 [github](https://github.com/CookiesChen/CG)
 
@@ -62,7 +62,7 @@ $d_{upper}-d_{lower}$可以表示为：
 
 ![1553188191739](report.assets/1553188191739.png)
 
-当$p_{i}<=0​$时，取下面的点，y没有改变：
+当$p_{i}<=0$时，取下面的点，y没有改变：
 
 ​	$p_{i+1} = p_{i}+2\Delta y​$
 
@@ -364,5 +364,5 @@ bool Bresenham::checkSameSide(int a, int b, int c, int x, int y, int p1, int p2)
 
 ![background2](report.assets/background2.gif)
 
-PS：本文使用了LateX语法，如果没有mathjax插件应该看不到数学公式，建议去看[pdf](/report.pdf)。
+PS：本文使用了LateX语法，如果没有mathjax插件应该看不到数学公式，建议去看[pdf](./report.pdf)。
 
