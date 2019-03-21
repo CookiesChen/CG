@@ -4,7 +4,7 @@
 
 ## 前言
 
-* 本文使用了LateX语法，如果没有mathjax插件应该看不到数学公式，建议去看[pdf](./report.pdf)。
+* 本文使用了LateX语法，如果没有mathjax插件应该看不到数学公式，在github上浏览可以在谷歌浏览器上安装[插件](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima)，如果不想安装就建议去看[pdf](./report.pdf)。
 
 * pdf无法显示gif图，如果需要查看动图需要返回markdown文件查看。
 
