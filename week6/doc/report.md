@@ -1,6 +1,6 @@
 ## 计算机图形学 | hw4
 
-如果想看动图可以前往[github]()
+如果想看动图可以前往[github](https://github.com/CookiesChen/CG/blob/master/week6/doc/report.md)
 
 ### 准备工作
 
@@ -67,7 +67,7 @@ void Shader::setMat4(const std::string& name, glm::mat4 value) const
 
 ### Basic:
 
- ####1. 画一个立方体(cube)：边长为4， 中心位置为(0, 0, 0)。分别启动和关闭深度测试glEnable(GL_DEPTH_TEST) 、 glDisable(GL_DEPTH_TEST) ，查看区别，并分析原因。
+#### 1. 画一个立方体(cube)：边长为4， 中心位置为(0, 0, 0)。分别启动和关闭深度测试glEnable(GL_DEPTH_TEST) 、 glDisable(GL_DEPTH_TEST) ，查看区别，并分析原因。
 
 绘制立方体，主要使用6个面，每个面2个三角形，一共36个顶点即可，为每个顶点配置颜色，一共216个元素。顶点数据如下：
 
