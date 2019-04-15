@@ -1,6 +1,6 @@
 ## 计算机图形学 | hw5
 
-如果想看动图可以前往[github]()
+如果想看动图可以前往[github](https://github.com/CookiesChen/CG/blob/master/week7/doc/report.md)
 
 ### Basic
 
