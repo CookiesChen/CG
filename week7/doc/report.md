@@ -2,6 +2,16 @@
 
 如果想看动图可以前往[github](https://github.com/CookiesChen/CG/blob/master/week7/doc/report.md)
 
+###  文件结构说明
+
+![1555425264453](report.assets/1555425264453.png)
+
+新增类分别有`View`和`Camera`。
+
+`View`负责imgui布局，VAO、VBO操作，并且传递鼠标和键盘事件给摄像机类，操作view，model和project矩阵。
+
+`Camera`摄像机类，负责鼠标和键盘事件回调，并且返回lookAt矩阵供`View`使用。
+
 ### Basic
 
 #### 1. 投影(Projection)
@@ -32,7 +42,7 @@
 
   由动图可以看到，当调节左边界的时候，所截取的空间范围缩小时，cude会被拉大，因为空间缩小，cude的占比变大，因此出现上面的情况。当调节near面的时候，会发现在1.0处，红色变为黑色，因为红色是正对着我们的面，黑色被背面，在near变大的时候，截取不到红色的面，因此就显示成黑色了。同理，当far变小的时候，最终截取不到cude，因此cude就消失了。
 
-* 正交投影需要使用glm提供的`perspective`方法，参数分别是fovy, aspect, zNear, zFar。
+* 透视投影需要使用glm提供的`perspective`方法，参数分别是fovy, aspect, zNear, zFar。
 
   ![1555329728518](report.assets/1555329728518.png)
 
@@ -54,7 +64,7 @@
 
 ![1555330749483](report.assets/1555330749483.png)
 
-摄像机的位置在xz平面上绕着y轴旋转，并且一直look at立方体，就能实现摄像机绕着物体旋转。因此需要使用圆的定义。
+摄像机的位置在xz平面上绕着y轴旋转，并且一直look at立方体，就能实现摄像机绕着物体旋转。因此需要使用圆的定义，通过圆的方程以及三角函数就可以轻松的通过改变摄像机的位置来实现摄像机绕着物体旋转。
 
 ```c++
 float radius = 3.0f;
