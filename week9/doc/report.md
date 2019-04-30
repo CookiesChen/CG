@@ -1,6 +1,6 @@
 ## 计算机图形学 | hw6
 
-如果想看动图可以前往[github]()
+如果想看动图可以前往[github](https://github.com/CookiesChen/CG/blob/master/week9/doc/report.md)
 
 ###Phong光照模型
 
