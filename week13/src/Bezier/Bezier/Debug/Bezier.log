@@ -1,0 +1,20 @@
+﻿  glad.c
+  main.cpp
+C:\Users\cookieschen\source\repos\Bezier\Bezier\main.cpp(51): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+main.obj : error LNK2019: 无法解析的外部符号 _glfwInit，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwDestroyWindow，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetFramebufferSize，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetTime，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，该符号在函数 _main 中被引用
+D:\study\opengl\Libs\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\cookieschen\source\repos\Bezier\Debug\Bezier.exe : fatal error LNK1120: 15 个无法解析的外部命令
